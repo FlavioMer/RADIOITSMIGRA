@@ -15,7 +15,7 @@ export const RADIO_CONFIG = {
     colors:{
         primary: "#1E40AF", //Azul Institucional
         secondary: "#DC2626", //Rojo    
-        Background: "#0F172A", //Fondo Oscuro
+        background: "#0F172A", //Fondo Oscuro
         text: "#F8FAFC", //Texto Claro
     }
 }   
