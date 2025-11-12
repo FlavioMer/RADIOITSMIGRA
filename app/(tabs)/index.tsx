@@ -1,8 +1,8 @@
 import React from "react";
 import { ScrollView, StatusBar, StyleSheet, View } from "react-native";
 //import RadioPlayer from "../components/RadioPlayer"; 
-import StationInfo from "../components/StationInfo";
 import { RADIO_CONFIG } from "@/constants/Config";
+import StationInfo from "../components/StationInfo";
 
 //Exportar la pantalla principal
 export default function HomeScreen(){
