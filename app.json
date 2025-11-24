@@ -1,17 +1,28 @@
 {
   "expo": {
     "name": "RADIOITSMIGRA",
-    "slug": "RADIOITSMIGRA",
+    "slug": "radioitsmigra",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/Logo_Radio.png",
     "scheme": "radioitsmigra",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "mx.tecnm.itsmigra.radio",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      }
     },
     "android": {
+      "package": "mx.tecnm.itsmigra.radio",
+      "permissions": [
+        "WAKE_LOCK",
+        "INTERNET"
+      ],
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -43,6 +54,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b3d5f9e3-5261-40c9-8dd5-4528147710c9"
+      },
+      "router": {}
+    },
+    "owner": "flaviomers-organization"
   }
 }
